@@ -1,0 +1,66 @@
+[
+	{
+		"name" : "Airbus A380F",
+		"mtow" : "589 670"
+	}, 
+	{
+		"name" : "Boeing 747-8",
+		"mtow" : "447 696"
+	}, 
+	{
+		"name" : "Airbus A340-500",
+		"mtow" : "372 000"
+	}, 
+	{
+		"name" : "Boeing 777-300",
+		"mtow" : "299 380"
+	}, 
+	{
+		"name" : "Airbus A350-1000",
+		"mtow" : "308 000"
+	}, 
+	{
+		"name" : "Boeing 787-8",
+		"mtow" : "227 950"
+	}, 
+	{
+		"name" : "Airbus A330-300",
+		"mtow" : "230 000"
+	}, 
+	{
+		"name" : "Boeing 757-200",
+		"mtow" : "99 790"
+	}, 
+	{
+		"name" : "Airbus A321-100",
+		"mtow" : "83 000"
+	}, 	
+	{
+		"name" : "Airbus A320-200",
+		"mtow" : "73 500"
+	}, 	
+	{
+		"name" : "McDonnell-Douglas MD-83",
+		"mtow" : "72 575"
+	}, 	
+	{
+		"name" : "Boeing 737-400",
+		"mtow" : "68 039"
+	}, 
+	{
+		"name" : "Embraer 175",
+		"mtow" : "40 370 "
+	}, 
+	{
+		"name" : "Douglas DC-4",
+		"mtow" : "33 112"
+	}, 
+	{
+		"name" : "Bombardier CRJ700",
+		"mtow" : "32 995"
+	}, 
+	{
+		"name" : "ATR 72-60",
+		"mtow" : "22 800"
+	}
+]
