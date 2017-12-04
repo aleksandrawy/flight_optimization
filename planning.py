@@ -1,25 +1,25 @@
 import json
 from collections import OrderedDict
-from PyQt5 import QtWebEngineWidgets
+from PyQt5 import QtWebKitWidgets
 from PyQt5 import QtCore, QtGui, QtWidgets
 
 class Ui_PlanningWindow(object):
 
     def __init__(self):
-        self.view = QtWebEngineWidgets.QWebEngineView()
+        self.view = QtWebKitWidgets.QWebEngineView()
 
     def openPlanningWindow(self):
         self.PlanningWindow = QtWidgets.QDialog()
         self.PlanningWindow.setWindowTitle('Flight optimization')
-        self.view.settings().setAttribute(QtWebEngineWidgets.QWebEngineSettings.WebGLEnabled, True)
-        self.view.settings().setAttribute(QtWebEngineWidgets.QWebEngineSettings.JavascriptEnabled, True)
-        self.view.settings().setAttribute(QtWebEngineWidgets.QWebEngineSettings.Accelerated2dCanvasEnabled, True)
+        # self.view.settings().setAttribute(QtWebEngineWidgets.QWebEngineSettings.WebGLEnabled, True)
+        # self.view.settings().setAttribute(QtWebEngineWidgets.QWebEngineSettings.JavascriptEnabled, True)
+        # self.view.settings().setAttribute(QtWebEngineWidgets.QWebEngineSettings.Accelerated2dCanvasEnabled, True)
         self.setupUi(self.PlanningWindow)
         self.PlanningWindow.show()
 
     def setupUi(self, Dialog):
         Dialog.setObjectName("Planning")
-        Dialog.resize(648, 572)
+        Dialog.resize(800, 600)
         palette = QtGui.QPalette()
         brush = QtGui.QBrush(QtGui.QColor(31, 31, 31))
         brush.setStyle(QtCore.Qt.SolidPattern)
@@ -100,7 +100,7 @@ class Ui_PlanningWindow(object):
         label_stylesheet = "border-style: dotted; border-color: #fafafa; border-width: 2px; color: #fafafa"
 
         self.label = QtWidgets.QLabel(Dialog)
-        self.label.setGeometry(QtCore.QRect(40, 150, 220, 31))
+        self.label.setGeometry(QtCore.QRect(100, 150, 220, 31))
         font = QtGui.QFont()
         font.setFamily("Lucida Sans")
         font.setPointSize(13)
@@ -110,16 +110,16 @@ class Ui_PlanningWindow(object):
         self.label.setStyleSheet(label_stylesheet)
 
         self.comboBox = QtWidgets.QComboBox(Dialog)
-        self.comboBox.setGeometry(QtCore.QRect(40, 230, 220, 22))
+        self.comboBox.setGeometry(QtCore.QRect(100, 230, 220, 22))
         self.comboBox.setObjectName("comboBox")
 
         self.comboBox_c = QtWidgets.QComboBox(Dialog)
-        self.comboBox_c.setGeometry(QtCore.QRect(40, 190, 220, 22))
+        self.comboBox_c.setGeometry(QtCore.QRect(100, 190, 220, 22))
         self.comboBox_c.setObjectName("comboBox")
         self.comboBox_c.accessibleName()
 
         self.label_2 = QtWidgets.QLabel(Dialog)
-        self.label_2.setGeometry(QtCore.QRect(350, 150, 220, 31))
+        self.label_2.setGeometry(QtCore.QRect(470, 150, 220, 31))
         font = QtGui.QFont()
         font.setFamily("Lucida Sans")
         font.setPointSize(13)
@@ -129,23 +129,23 @@ class Ui_PlanningWindow(object):
         self.label_2.setStyleSheet(label_stylesheet)
 
         self.comboBox_2 = QtWidgets.QComboBox(Dialog)
-        self.comboBox_2.setGeometry(QtCore.QRect(350, 230, 220, 22))
+        self.comboBox_2.setGeometry(QtCore.QRect(470, 230, 220, 22))
         self.comboBox_2.setObjectName("comboBox_2")
 
         self.comboBox_2_c = QtWidgets.QComboBox(Dialog)
-        self.comboBox_2_c.setGeometry(QtCore.QRect(350, 190, 220, 22))
+        self.comboBox_2_c.setGeometry(QtCore.QRect(470, 190, 220, 22))
         self.comboBox_2_c.setObjectName("comboBox")
         self.comboBox_2_c.accessibleName()
 
         self.label_3 = QtWidgets.QLabel(Dialog)
-        self.label_3.setGeometry(QtCore.QRect(90, 20, 441, 91))
+        self.label_3.setGeometry(QtCore.QRect(125, 20, 550, 110))
         font = QtGui.QFont()
         font.setFamily("Lucida Handwriting")
         self.label_3.setFont(font)
         self.label_3.setObjectName("label_3")
         self.label_3.setStyleSheet(title_stylesheet)
         self.label_4 = QtWidgets.QLabel(Dialog)
-        self.label_4.setGeometry(QtCore.QRect(40, 300, 220, 31))
+        self.label_4.setGeometry(QtCore.QRect(100, 300, 220, 31))
         font = QtGui.QFont()
         font.setFamily("Lucida Sans")
         font.setPointSize(13)
@@ -154,13 +154,13 @@ class Ui_PlanningWindow(object):
         self.label_4.setObjectName("label_4")
         self.label_4.setStyleSheet(label_stylesheet)
         self.dateTimeEdit = QtWidgets.QDateTimeEdit(Dialog)
-        self.dateTimeEdit.setGeometry(QtCore.QRect(40, 480, 220, 22))
+        self.dateTimeEdit.setGeometry(QtCore.QRect(100, 480, 220, 22))
         font = QtGui.QFont()
         font.setFamily("Lucida Sans")
         self.dateTimeEdit.setFont(font)
         self.dateTimeEdit.setObjectName("dateTimeEdit")
         self.label_5 = QtWidgets.QLabel(Dialog)
-        self.label_5.setGeometry(QtCore.QRect(40, 440, 220, 31))
+        self.label_5.setGeometry(QtCore.QRect(100, 440, 220, 31))
         font = QtGui.QFont()
         font.setFamily("Lucida Sans")
         font.setPointSize(13)
@@ -169,7 +169,7 @@ class Ui_PlanningWindow(object):
         self.label_5.setObjectName("label_5")
         self.label_5.setStyleSheet(label_stylesheet)
         self.label_6 = QtWidgets.QLabel(Dialog)
-        self.label_6.setGeometry(QtCore.QRect(350, 260, 220, 31))
+        self.label_6.setGeometry(QtCore.QRect(470, 260, 220, 31))
         font = QtGui.QFont()
         font.setFamily("Lucida Sans")
         font.setPointSize(13)
@@ -178,7 +178,7 @@ class Ui_PlanningWindow(object):
         self.label_6.setObjectName("label_6")
         self.label_6.setStyleSheet(label_stylesheet)
         self.label_7 = QtWidgets.QLabel(Dialog)
-        self.label_7.setGeometry(QtCore.QRect(350, 350, 220, 31))
+        self.label_7.setGeometry(QtCore.QRect(470, 350, 220, 31))
         font = QtGui.QFont()
         font.setFamily("Lucida Sans")
         font.setPointSize(13)
@@ -187,7 +187,7 @@ class Ui_PlanningWindow(object):
         self.label_7.setObjectName("label_7")
         self.label_7.setStyleSheet(label_stylesheet)
         self.label_8 = QtWidgets.QLabel(Dialog)
-        self.label_8.setGeometry(QtCore.QRect(350, 300, 220, 31))
+        self.label_8.setGeometry(QtCore.QRect(470, 300, 220, 31))
         font = QtGui.QFont()
         font.setFamily("Lucida Sans")
         font.setPointSize(11)
@@ -196,7 +196,7 @@ class Ui_PlanningWindow(object):
         self.label_8.setObjectName("label_8")
         self.label_8.setStyleSheet(text_stylesheet)
         self.label_9 = QtWidgets.QLabel(Dialog)
-        self.label_9.setGeometry(QtCore.QRect(350, 390, 220, 31))
+        self.label_9.setGeometry(QtCore.QRect(470, 390, 220, 31))
         font = QtGui.QFont()
         font.setFamily("Lucida Sans")
         font.setPointSize(11)
@@ -205,12 +205,12 @@ class Ui_PlanningWindow(object):
         self.label_9.setObjectName("label_9")
         self.label_9.setStyleSheet(text_stylesheet)
         self.comboBox_3 = QtWidgets.QComboBox(Dialog)
-        self.comboBox_3.setGeometry(QtCore.QRect(40, 340, 220, 22))
+        self.comboBox_3.setGeometry(QtCore.QRect(100, 340, 220, 22))
         self.comboBox_3.setObjectName("comboBox_3")
 
 
         self.pushButton = QtWidgets.QPushButton(Dialog)
-        self.pushButton.setGeometry(QtCore.QRect(350, 440, 220, 81))
+        self.pushButton.setGeometry(QtCore.QRect(470, 440, 220, 81))
         font = QtGui.QFont()
         font.setFamily("Lucida Sans")
         font.setPointSize(13)

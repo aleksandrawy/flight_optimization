@@ -1,5 +1,5 @@
-from PyQt5 import QtGui
-from qgmap import *
+from PyQt5 import QtGui, QtCore, QtWidgets
+#from qgmap import *
 from map import Ui_MapWindow
 from planning import Ui_PlanningWindow
 
@@ -94,7 +94,7 @@ class Ui_MainWindow(object):
         text_stylesheet = "padding-left: 30px; Text-align:left; background-color: #1b1b1b; color: #fafafa"
         #FLIGHT PLANNING BUTTON
         self.pushButton = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton.setGeometry(QtCore.QRect(200, 175, 400, 100))
+        self.pushButton.setGeometry(QtCore.QRect(175, 175, 450, 100))
         self.pushButton.setFont(font)
         self.pushButton.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.pushButton.setStyleSheet(text_stylesheet)
@@ -102,7 +102,7 @@ class Ui_MainWindow(object):
         self.pushButton.setIconSize(icon_size)
         #SHOW MAP BUTTON
         self.pushButton_2 = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton_2.setGeometry(QtCore.QRect(200, 375, 400, 100))
+        self.pushButton_2.setGeometry(QtCore.QRect(175, 375, 450, 100))
         self.pushButton_2.setFont(font)
         self.pushButton_2.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.pushButton_2.setIcon(QtGui.QIcon("map.png"))

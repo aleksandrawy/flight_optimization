@@ -1,66 +1,114 @@
 [
 	{
 		"name" : "Airbus A380F",
-		"mtow" : "589 670"
+		"mtow" : "589 670",
+		"range": "16 112",
+		"fuel tank capacity": "713 398",
+		"speed": "587"
 	}, 
 	{
 		"name" : "Boeing 747-8",
-		"mtow" : "447 696"
+		"mtow" : "447 696",
+		"range": "14 816",
+		"fuel tank capacity": "535 983",
+		"speed": "563"
 	}, 
 	{
 		"name" : "Airbus A340-500",
-		"mtow" : "372 000"
+		"mtow" : "372 000",
+		"range": "9018",
+		"fuel tank capacity": "473 618",
+		"speed": "490"
 	}, 
 	{
 		"name" : "Boeing 777-300",
-		"mtow" : "299 380"
+		"mtow" : "299 380",
+		"range": "5720",
+		"fuel tank capacity": "377 379",
+		"speed": "510"
 	}, 
 	{
 		"name" : "Airbus A350-1000",
-		"mtow" : "308 000"
+		"mtow" : "308 000",
+		"range": "7992",
+		"fuel tank capacity": "330 728",
+		"speed": "510"
 	}, 
 	{
 		"name" : "Boeing 787-8",
-		"mtow" : "227 950"
+		"mtow" : "227 950",
+		"range": "8200",
+		"fuel tank capacity": "279 804",
+		"speed": "510"
 	}, 
 	{
 		"name" : "Airbus A330-300",
-		"mtow" : "230 000"
+		"mtow" : "230 000",
+		"range": "5670",
+		"fuel tank capacity": "214 243",
+		"speed": "470"
 	}, 
 	{
 		"name" : "Boeing 757-200",
-		"mtow" : "99 790"
+		"mtow" : "99 790",
+		"range": "3900",
+		"fuel tank capacity": "94 102",
+		"speed": "530"
 	}, 
 	{
 		"name" : "Airbus A321-100",
-		"mtow" : "83 000"
+		"mtow" : "83 000",
+		"range": "3212",
+		"fuel tank capacity": "65 212",
+		"speed": "470"
 	}, 	
 	{
 		"name" : "Airbus A320-200",
-		"mtow" : "73 500"
+		"mtow" : "73 500",
+		"range": "3293",
+		"fuel tank capacity": "59 965",
+		"speed": "460"
 	}, 	
 	{
 		"name" : "McDonnell-Douglas MD-83",
-		"mtow" : "72 575"
+		"mtow" : "72 575",
+		"range": "2500",
+		"fuel tank capacity": "58 417",
+		"speed": "484"
 	}, 	
 	{
 		"name" : "Boeing 737-400",
-		"mtow" : "68 039"
+		"mtow" : "68 039",
+		"range": "2800",
+		"fuel tank capacity": "44 322",
+		"speed": "473"
 	}, 
 	{
 		"name" : "Embraer 175",
-		"mtow" : "40 370 "
+		"mtow" : "40 370",
+		"range": "2200",
+		"fuel tank capacity": "20 580",
+		"speed": "470"
 	}, 
 	{
 		"name" : "Douglas DC-4",
-		"mtow" : "33 112"
+		"mtow" : "33 112",
+		"range": "2172",
+		"fuel tank capacity": "29 876",
+		"speed": "244"
 	}, 
 	{
 		"name" : "Bombardier CRJ700",
-		"mtow" : "32 995"
+		"mtow" : "32 995",
+		"range": "1434",  
+		"fuel tank capacity": "19 450", 
+		"speed": "447" 
 	}, 
 	{
-		"name" : "ATR 72-60",
-		"mtow" : "22 800"
+		"name" : "ATR 72-600",
+		"mtow" : "22 800",
+		"range": "825",
+		"fuel tank capacity": "11 023",
+		"speed": "275"
 	}
 ]

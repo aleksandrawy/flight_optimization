@@ -1,17 +1,17 @@
-from PyQt5 import QtCore, QtGui, QtWidgets, QtWebEngineWidgets
+from PyQt5 import QtCore, QtGui, QtWidgets, QtWebKitWidgets
 
 
 class Ui_MapWindow(object):
 
     def __init__(self):
-        self.view = QtWebEngineWidgets.QWebEngineView()
+        self.view = QtWebKitWidgets.QWebView()
 
     def openMapWindow(self):
         self.MapWindow = QtWidgets.QWidget()
         self.MapWindow.setWindowTitle('Flight optimization')
-        self.view.settings().setAttribute(QtWebEngineWidgets.QWebEngineSettings.WebGLEnabled, True)
-        self.view.settings().setAttribute(QtWebEngineWidgets.QWebEngineSettings.JavascriptEnabled, True)
-        self.view.settings().setAttribute(QtWebEngineWidgets.QWebEngineSettings.Accelerated2dCanvasEnabled, True)
+        # self.view.settings().setAttribute(QtWebEngineWidgets.QWebEngineSettings.WebGLEnabled, True)
+        # self.view.settings().setAttribute(QtWebEngineWidgets.QWebEngineSettings.JavascriptEnabled, True)
+        # self.view.settings().setAttribute(QtWebEngineWidgets.QWebEngineSettings.Accelerated2dCanvasEnabled, True)
         self.setupUi(self.MapWindow)
         self.MapWindow.showMaximized()
 

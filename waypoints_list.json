@@ -1,0 +1,698 @@
+[
+    {
+        "type": "Feature",
+        "properties": {
+            "Name": "BALOS WYP",
+            "description": "GPS 50.323612 19.581388",
+            "timestamp": null,
+            "begin": null,
+            "end": null,
+            "altitudeMode": null,
+            "tessellate": -1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": null,
+            "icon": null
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                19.581388,
+                50.323612,
+                0.0
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Name": "BARNU WYP",
+            "description": "GPS 52.186668 18.0",
+            "timestamp": null,
+            "begin": null,
+            "end": null,
+            "altitudeMode": null,
+            "tessellate": -1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": null,
+            "icon": null
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                18.0,
+                52.186668,
+                0.0
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Name": "DIBRI WYP",
+            "description": "GPS 52.683056 18.606667",
+            "timestamp": null,
+            "begin": null,
+            "end": null,
+            "altitudeMode": null,
+            "tessellate": -1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": null,
+            "icon": null
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                18.606667,
+                52.683056,
+                0.0
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Name": "DODEK WYP",
+            "description": "GPS 52.390278 19.671667",
+            "timestamp": null,
+            "begin": null,
+            "end": null,
+            "altitudeMode": null,
+            "tessellate": -1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": null,
+            "icon": null
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                19.671667,
+                52.390278,
+                0.0
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Name": "GOMED WYP",
+            "description": "GPS 54.447777 19.654167",
+            "timestamp": null,
+            "begin": null,
+            "end": null,
+            "altitudeMode": null,
+            "tessellate": -1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": null,
+            "icon": null
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                19.654167,
+                54.447777,
+                0.0
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Name": "GOSLO WYP",
+            "description": "GPS 51.188889 19.662222",
+            "timestamp": null,
+            "begin": null,
+            "end": null,
+            "altitudeMode": null,
+            "tessellate": -1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": null,
+            "icon": null
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                19.662222,
+                51.188889,
+                0.0
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Name": "KUKOV WYP",
+            "description": "GPS 52.106667 20.320278",
+            "timestamp": null,
+            "begin": null,
+            "end": null,
+            "altitudeMode": null,
+            "tessellate": -1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": null,
+            "icon": null
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                20.320278,
+                52.106667,
+                0.0
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Name": "LISSU WYP",
+            "description": "GPS 52.663055 20.096111",
+            "timestamp": null,
+            "begin": null,
+            "end": null,
+            "altitudeMode": null,
+            "tessellate": -1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": null,
+            "icon": null
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                20.096111,
+                52.663055,
+                0.0
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Name": "LODNI WYP",
+            "description": "GPS 53.736946 18.624445",
+            "timestamp": null,
+            "begin": null,
+            "end": null,
+            "altitudeMode": null,
+            "tessellate": -1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": null,
+            "icon": null
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                18.624445,
+                53.736946,
+                0.0
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Name": "LUBEN WYP",
+            "description": "GPS 51.224167 19.9575",
+            "timestamp": null,
+            "begin": null,
+            "end": null,
+            "altitudeMode": null,
+            "tessellate": -1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": null,
+            "icon": null
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                19.9575,
+                51.224167,
+                0.0
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Name": "LUMOK WYP",
+            "description": "GPS 52.244167 19.885",
+            "timestamp": null,
+            "begin": null,
+            "end": null,
+            "altitudeMode": null,
+            "tessellate": -1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": null,
+            "icon": null
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                19.885,
+                52.244167,
+                0.0
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Name": "MAKOV WYP",
+            "description": "GPS 51.149166 19.111944",
+            "timestamp": null,
+            "begin": null,
+            "end": null,
+            "altitudeMode": null,
+            "tessellate": -1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": null,
+            "icon": null
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                19.111944,
+                51.149166,
+                0.0
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Name": "MOKOS WYP",
+            "description": "GPS 50.556667 19.666666",
+            "timestamp": null,
+            "begin": null,
+            "end": null,
+            "altitudeMode": null,
+            "tessellate": -1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": null,
+            "icon": null
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                19.666666,
+                50.556667,
+                0.0
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Name": "MOLIL WYP",
+            "description": "GPS 52.592224 18.0",
+            "timestamp": null,
+            "begin": null,
+            "end": null,
+            "altitudeMode": null,
+            "tessellate": -1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": null,
+            "icon": null
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                18.0,
+                52.592224,
+                0.0
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Name": "MYSKO WYP",
+            "description": "GPS 50.536388 19.279444",
+            "timestamp": null,
+            "begin": null,
+            "end": null,
+            "altitudeMode": null,
+            "tessellate": -1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": null,
+            "icon": null
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                19.279444,
+                50.536388,
+                0.0
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Name": "NOMIX WYP",
+            "description": "GPS 49.939445 18.999722",
+            "timestamp": null,
+            "begin": null,
+            "end": null,
+            "altitudeMode": null,
+            "tessellate": -1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": null,
+            "icon": null
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                18.999722,
+                49.939445,
+                0.0
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Name": "OBEGO WYP",
+            "description": "GPS 52.359444 19.910555",
+            "timestamp": null,
+            "begin": null,
+            "end": null,
+            "altitudeMode": null,
+            "tessellate": -1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": null,
+            "icon": null
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                19.910555,
+                52.359444,
+                0.0
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Name": "PEPEN WYP",
+            "description": "GPS 51.90889 20.390278",
+            "timestamp": null,
+            "begin": null,
+            "end": null,
+            "altitudeMode": null,
+            "tessellate": -1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": null,
+            "icon": null
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                20.390278,
+                51.90889,
+                0.0
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Name": "PRASK WYP",
+            "description": "GPS 51.033333 18.525",
+            "timestamp": null,
+            "begin": null,
+            "end": null,
+            "altitudeMode": null,
+            "tessellate": -1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": null,
+            "icon": null
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                18.525,
+                51.033333,
+                0.0
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Name": "RODAK WYP",
+            "description": "GPS 53.218613 19.253611",
+            "timestamp": null,
+            "begin": null,
+            "end": null,
+            "altitudeMode": null,
+            "tessellate": -1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": null,
+            "icon": null
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                19.253611,
+                53.218613,
+                0.0
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Name": "SKARY WYP",
+            "description": "GPS 54.110554 18.349445",
+            "timestamp": null,
+            "begin": null,
+            "end": null,
+            "altitudeMode": null,
+            "tessellate": -1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": null,
+            "icon": null
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                18.349445,
+                54.110554,
+                0.0
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Name": "VAVEK WYP",
+            "description": "GPS 52.689999 19.212778",
+            "timestamp": null,
+            "begin": null,
+            "end": null,
+            "altitudeMode": null,
+            "tessellate": -1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": null,
+            "icon": null
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                19.212778,
+                52.689999,
+                0.0
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Name": "EPBY ARP",
+            "description": "GPS 53.096802 17.977669",
+            "timestamp": null,
+            "begin": null,
+            "end": null,
+            "altitudeMode": null,
+            "tessellate": -1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": null,
+            "icon": null
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                17.977669,
+                53.096802,
+                0.0
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Name": "EPCH ARP",
+            "description": "GPS 50.884998 19.204721",
+            "timestamp": null,
+            "begin": null,
+            "end": null,
+            "altitudeMode": null,
+            "tessellate": -1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": null,
+            "icon": null
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                19.204721,
+                50.884998,
+                0.0
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Name": "EPGD ARP",
+            "description": "GPS 54.377571 18.466223",
+            "timestamp": null,
+            "begin": null,
+            "end": null,
+            "altitudeMode": null,
+            "tessellate": -1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": null,
+            "icon": null
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                18.466223,
+                54.377571,
+                0.0
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Name": "EPKT ARP",
+            "description": "GPS 50.474255 19.080019",
+            "timestamp": null,
+            "begin": null,
+            "end": null,
+            "altitudeMode": null,
+            "tessellate": -1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": null,
+            "icon": null
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                19.080019,
+                50.474255,
+                0.0
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Name": "EPMB ARP",
+            "description": "GPS 54.026943 19.134167",
+            "timestamp": null,
+            "begin": null,
+            "end": null,
+            "altitudeMode": null,
+            "tessellate": -1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": null,
+            "icon": null
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                19.134167,
+                54.026943,
+                0.0
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Name": "EPPR ARP",
+            "description": "GPS 54.248055 18.673334",
+            "timestamp": null,
+            "begin": null,
+            "end": null,
+            "altitudeMode": null,
+            "tessellate": -1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": null,
+            "icon": null
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                18.673334,
+                54.248055,
+                0.0
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "Name": "LZSL ARP",
+            "description": "GPS 48.638054 19.134167",
+            "timestamp": null,
+            "begin": null,
+            "end": null,
+            "altitudeMode": null,
+            "tessellate": -1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": null,
+            "icon": null
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                19.134167,
+                48.638054,
+                0.0
+            ]
+        }
+    }
+]
