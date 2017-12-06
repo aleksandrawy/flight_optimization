@@ -1,6 +1,6 @@
-import qgmap
-from PyQt5 import QtCore, QtGui, QtWidgets, QtWebEngineWidgets, QtWebEngine
-import plotly.plotly as py
+# import qgmap
+from PyQt5 import QtCore, QtGui, QtWidgets, QtWebKitWidgets, _QOpenGLFunctions_4_1_Core, QtWebKit
+# import plotly.plotly as py
 import sys
 
 # Create an application
@@ -12,11 +12,23 @@ app = QtWidgets.QApplication(sys.argv)
 win = QtWidgets.QWidget()
 win.setWindowTitle('QWebView Interactive Demo')
 
+# win.settings().setAttribute(QtWebKit.QWebSettings.WebGLEnabled, True)
+# win.settings().setAttribute(QtWebKit.QWebSettings.AcceleratedCompositingEnabled, True)
+
+# _QOpenGLFunctions_4_1_Core.QOpenGLFunctions_4_1_Core().initializeOpenGLFunctions()
+# win.settings().setAttribute(QtWidgets.WebGLEnabled, True)
+# win.settings().setAttribute(QtWidgets.QWebEngineSettings.JavascriptEnabled, True)
+# win.settings().setAttribute(QtWidgets.QWebEngineSettings.Accelerated2dCanvasEnabled, True)
+
 # And give it a layout
 layout = QtWidgets.QVBoxLayout()
 win.setLayout(layout)
 
-view = QtWebEngineWidgets.QWebEngineView()
+view = QtWebKitWidgets.QWebView()
+view.settings().globalSettings().setAttribute(QtWebKit.QWebSettings.WebGLEnabled, True)
+view.settings().setAttribute(QtWebKit.QWebSettings.AcceleratedCompositingEnabled, True)
+view.settings().setAttribute(QtWebKit.QWebSettings.Accelerated2dCanvasEnabled, True)
+view.settings().setAttribute(QtWebKit.QWebSettings.JavascriptEnabled, True)
 # view.setHtml('''
 # <html>
 #   <head>
@@ -126,15 +138,16 @@ view = QtWebEngineWidgets.QWebEngineView()
 #     </body>
 #   </html>
 #   ''')
-url = 'C:/Users/tralala/Desktop/Praca Inżynierska/basic.html'
+url = 'C:/Users/Aleksandra/Desktop/INZYNIERKA/INZYNIERKA/Praca Inżynierska/fp.html'
 with open(url) as map:
     data = map.read()
-map.closed
-
-print(data)
-#####PONIZEJ DZIALA!!!
+# map.closed
+#
+# data = 'http://webglsamples.org/aquarium/aquarium.html'
+# print(data)
+# #####PONIZEJ DZIALA!!!
 view.setHtml(data)
-
+# view.load(QtCore.QUrl('http://webglsamples.org/aquarium/aquarium.html'))
 
 button = QtWidgets.QPushButton('Set Full Name')
 

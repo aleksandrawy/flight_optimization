@@ -231,11 +231,9 @@ class Functions():
         country1 = self.get_country_name(str(lat1), str(lon1))
         #country2 = self.get_country_name(str(lon2), str(lat2))
 
-        print(costs)
         for key in costs:
             if key == country1:
-                cost = self.calculate_distance(p1, p2)/100 * float(costs[key]) * sqrt(float(self.get_mtow())/50)
-        print(cost)
+                cost = self.calculate_distance(p1, p2)/100 * float(costs[key]) * sqrt(self.get_mtow()/50)
         return cost
 
     def get_country_name(self, lat, lon):
@@ -243,7 +241,6 @@ class Functions():
         loc = lat + ", " + lon
         location = geolocator.reverse(loc, language="pl")
         country = location.raw['address']['country']
-        print(country)
         return country
 
     def set_plane(self, plane):
@@ -255,10 +252,9 @@ class Functions():
                 self.plane = p
 
     def get_mtow(self):
-        print(self.plane["mtow"])
         mtow = self.plane["mtow"]
         mtow = mtow.replace(" ", "")
-        return mtow
+        return float(mtow)/1000
 
     def get_speed(self):
         return self.plane["speed"]
@@ -266,12 +262,16 @@ class Functions():
     def calculate_flight_time(self, p1, p2):
         km_h = int(self.get_speed()) * 1.852
         hours = self.calculate_distance(p1, p2) / km_h
-        print(hours)
         sec = hours*3600
-        print(sec)
         flight_sec = time.gmtime(sec)
         flight_time = time.strftime("%H:%M:%S", flight_sec)
-        return flight_time
+        return hours, flight_time
+
+    def calculate_fuel_consumption(self, p1, p2):
+        return int(self.plane["fuel consumption"])/1000*self.calculate_distance(p1, p2)
+
+    def calculate_all_costs(self, p1, p2):
+        return (self.calculate_travel_cost(p1, p2)+self.calculate_flight_time(p1, p2)[0]+self.calculate_fuel_consumption(p1, p2))/3
 
 
 fun = Functions()
@@ -280,7 +280,9 @@ fun = Functions()
 # fun.set_rectangle("Gdańsk Lech Wałęsa Airport", "John Paul II International Airport Kraków-Balice Airport")
 # print(fun.is_in_rectangle("OLKIN WYP"))
 # fun.get_closest_points("OLKIN WYP")
-fun.set_plane("Airbus A320-200")
-fun.calculate_travel_cost("Gdańsk Lech Wałęsa Airport", "OLKIN WYP")
-fun.calculate_flight_time("Gdańsk Lech Wałęsa Airport", "John Paul II International Airport Kraków-Balice Airport")
+fun.set_plane("Boeing 737-400")
+print(fun.calculate_travel_cost("Gdańsk Lech Wałęsa Airport", "Berlin-Tegel International Airport"))
+print(fun.calculate_flight_time("Gdańsk Lech Wałęsa Airport", "John Paul II International Airport Kraków-Balice Airport")[1])
+print(fun.calculate_fuel_consumption("Gdańsk Lech Wałęsa Airport", "John Paul II International Airport Kraków-Balice Airport"))
+print(fun.calculate_all_costs("Gdańsk Lech Wałęsa Airport", "John Paul II International Airport Kraków-Balice Airport"))
 #fun.set_graph("Gdańsk Lech Wałęsa Airport", "John Paul II International Airport Kraków-Balice Airport")
